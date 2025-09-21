@@ -25,7 +25,58 @@ It demonstrates **object-oriented programming principles**, **interfaces**, and 
 - Extensible design for adding new vehicle types
 - Separation of concerns via DAO pattern
 
+
 ---
 
-## 📂 Project Structure
+## 🧩 Class Overview
+
+- **Vehicle (abstract)**  
+  Base class for all vehicles. Encapsulates common attributes such as license plate, model, etc.
+
+- **Car, Bus, Truck**  
+  Specific vehicle subclasses with extended properties.
+
+- **VehicleDAO (interface)**  
+  Defines operations for adding, removing, and listing vehicles.
+
+- **SerializedVehicleDAO (implementation)**  
+  Handles storage of vehicle objects via file serialization.
+
+- **VehicleManagement**  
+  Provides the main management logic.
+
+- **VehicleCLI**  
+  Text-based interface to interact with the user.
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Prerequisites
+- Java 11+  
+- Any IDE (Eclipse, IntelliJ, VS Code)
+
+### 2️⃣ Compile & Run
+To compile:
+```bash
+javac *.java
+```
+
+To run:
+```
+java VehicleCLI
+```
+
+
+## 📖 Learning Outcomes
+
+- Inheritance and polymorphism
+- Interface design
+- Data Access Object pattern
+- Java serialization for persistence
+- Command-line application design
+
+## 📄 License
+
+This project is for educational purposes only.
 
